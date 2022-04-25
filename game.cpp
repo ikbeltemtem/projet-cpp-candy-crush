@@ -390,7 +390,7 @@ int Game::game_main()
                             }
                             clicked=false;
                         }
-                    }if(moves==3){
+                    }if(moves==7){
                        SDL_BlitSurface(bac,NULL,gScreenSurface,NULL);
                        map<int,SDL_Surface*>::iterator i;
 	for(  i = shapes.begin(); i!=shapes.end(); ++i)
